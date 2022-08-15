@@ -1,4 +1,4 @@
-# Extracting-Fashion-Trends-from-Social-Media-Data-and-Searching-Them-on-Flipkart
+# Extracting-Fashion-Trends-from-Social-Media-Data-and-finding-similar-items-on-Flipkart
 ## Description
 
 Social media has become a major fashion influencer for today's generation. All of us surf internet and it happens a lot that we come across some products that we wish to buy but can't find it. 
