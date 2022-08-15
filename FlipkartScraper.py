@@ -1,7 +1,10 @@
 from bs4 import *
+from pyrsistent import b
 import requests
 import os
-
+import sys
+sys.path.insert(1,'/path/to/src')
+import test
 # CREATE FOLDER
 def folder_create(images):
 	try:
@@ -111,6 +114,5 @@ def main(url):
 
 # take url
 url = 'https://www.flipkart.com/search?q=Men+Apparel+Topwear+Tops+Black+Fall+Casual'
-
 # CALL MAIN FUNCTION
 main(url)

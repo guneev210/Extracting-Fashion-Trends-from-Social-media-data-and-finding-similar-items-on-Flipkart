@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 import time
 
 #specify the path to chromedriver.exe (download and save on your computer)
-driver = webdriver.Chrome('C:/Users/USER/OneDrive/Desktop/chromedriver_win32/chromedriver.exe') #add your path
+driver = webdriver.Chrome('C:/Users/DELL/OneDrive/Desktop/Flipkart/input/chromedriver.exe') #add your path
 
 #open the webpage
 driver.get("http://www.instagram.com")
@@ -18,9 +18,9 @@ password = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SE
 
 #enter username and password
 username.clear()
-username.send_keys("****") #add ur username 
+username.send_keys("******") #add ur username 
 password.clear()
-password.send_keys("****")# password for ur account
+password.send_keys("******")# password for ur account
 
 #target the login button and click it
 button = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[type='submit']"))).click()
